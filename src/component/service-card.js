@@ -10,8 +10,6 @@ const ServiceCard = ({ title, img, items = [] }) => {
             <div>
             <h2>{title}</h2>
             </div>
-                
-            {/* <ul>{items.map((item, idx) => <li key={`${idx}-card-list-item`}>{item}</li>)}</ul> */}
         </div>
     )
 }
