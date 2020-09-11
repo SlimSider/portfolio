@@ -26,6 +26,7 @@ const HomePage = () => {
     <Helmet>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <meta name='viewport' content="width=device-width, initial-scale=1"></meta>
+      <meta name='description' content="Portfolio website of Koppány Szamosy featuring freelance services, exprience and contact"></meta>
       <title>Koppány Szamosy portfolio</title>
       <link rel="canonical" href="https://koppanyszamosy.hu" />
     </Helmet>
