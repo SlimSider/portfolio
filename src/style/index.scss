@@ -1,0 +1,69 @@
+$colors: (
+    primary-dark: #191f3b,
+    typography: #eaeaea,
+    primary: #0993f0,
+    secondary: #ff2e63,
+    secondary-dark: #222222,
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name)
+}
+
+svg {
+    display: block;
+}
+
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    height: 100%;
+
+    
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+}
+
+.action-button {
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    max-width: 30%;
+    min-width: 150px;
+    text-align: center;
+    background-color: darken(color(secondary-dark), 0%);
+    color: color(typography);
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1em;
+    transition: .5s;
+    border: none;
+
+    &:hover {
+        opacity: 0.6;
+    }
+
+    &:focus {
+        outline: none
+    }
+}
+
+footer {
+    background-color: black;
+    color: color(typography);
+    text-align: center;
+    padding: 3rem;
+}
+
+@import 'landing', 'services', 'experience', 'contact'

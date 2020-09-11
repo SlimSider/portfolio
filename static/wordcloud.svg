@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="851" height="315">
+<defs>
+<style type="text/css"> @import url(https://fonts.googleapis.com/css2?family=Days%20One:wght@400&amp;display=swap); </style>
+</defs>
+<g>
+<g transform="translate(424,158) rotate(-12,0,0)">
+<text fill="#f7e4be" stroke="none" font-family="Days One" font-size="18.6172px" font-style="normal" font-weight="normal" x="-78.78349304199219" y="-7.4803466796875" text-anchor="start" dominant-baseline="alphabetic">Spring Security</text>
+</g>
+<g transform="translate(426,202) rotate(12,0,0)">
+<text fill="#f7e4be" stroke="none" font-family="Days One" font-size="18.6172px" font-style="normal" font-weight="normal" x="-72.79977416992188" y="-7.4803466796875" text-anchor="start" dominant-baseline="alphabetic">Apache Camel</text>
+</g>
+<g transform="translate(420,114) rotate(12,0,0)">
+<text fill="#f0f4bc" stroke="none" font-family="Days One" font-size="18.6172px" font-style="normal" font-weight="normal" x="-70.85517120361328" y="-7.4803466796875" text-anchor="start" dominant-baseline="alphabetic">Apache Kafka</text>
+</g>
+<g transform="translate(398,138) rotate(0,0,0)">
+<text fill="#848da6" stroke="none" font-family="Days One" font-size="18.6172px" font-style="normal" font-weight="normal" x="-65.54840087890625" y="-7.4803466796875" text-anchor="start" dominant-baseline="alphabetic">React Native</text>
+</g>
+<g transform="translate(426,222) rotate(12,0,0)">
+<text fill="#848da6" stroke="none" font-family="Days One" font-size="18.6172px" font-style="normal" font-weight="normal" x="-60.28710174560547" y="-7.4803466796875" text-anchor="start" dominant-baseline="alphabetic">Spring Boot</text>
+</g>
+<g transform="translate(462,170) rotate(-12,0,0)">
+<text fill="#f7e4be" stroke="none" font-family="Days One" font-size="18.6172px" font-style="normal" font-weight="normal" x="-52.127052307128906" y="-7.4803466796875" text-anchor="start" dominant-baseline="alphabetic">Javascript</text>
+</g>
+<g transform="translate(410,90) rotate(12,0,0)">
+<text fill="#f7e4be" stroke="none" font-family="Days One" font-size="18.6172px" font-style="normal" font-weight="normal" x="-53.24474334716797" y="-7.4803466796875" text-anchor="start" dominant-baseline="alphabetic">Typescript</text>
+</g>
+<g transform="translate(472,190) rotate(0,0,0)">
+<text fill="#848da6" stroke="none" font-family="Days One" font-size="18.6172px" font-style="normal" font-weight="normal" x="-39.796119689941406" y="-7.4803466796875" text-anchor="start" dominant-baseline="alphabetic">Angular</text>
+</g>
+<g transform="translate(426,242) rotate(12,0,0)">
+<text fill="#f7e4be" stroke="none" font-family="Days One" font-size="18.6172px" font-style="normal" font-weight="normal" x="-36.94282531738281" y="-7.4803466796875" text-anchor="start" dominant-baseline="alphabetic">Git Lab</text>
+</g>
+<g transform="translate(352,122) rotate(0,0,0)">
+<text fill="#848da6" stroke="none" font-family="Days One" font-size="18.6172px" font-style="normal" font-weight="normal" x="-37.05186462402344" y="-7.4803466796875" text-anchor="start" dominant-baseline="alphabetic">JavaEE</text>
+</g>
+<g transform="translate(424,262) rotate(0,0,0)">
+<text fill="#9a80a4" stroke="none" font-family="Days One" font-size="18.6172px" font-style="normal" font-weight="normal" x="-36.284027099609375" y="-7.4803466796875" text-anchor="start" dominant-baseline="alphabetic">Python</text>
+</g>
+<g transform="translate(318,190) rotate(0,0,0)">
+<text fill="#848da6" stroke="none" font-family="Days One" font-size="18.6172px" font-style="normal" font-weight="normal" x="-37.874244689941406" y="-7.4803466796875" text-anchor="start" dominant-baseline="alphabetic">HTML5</text>
+</g>
+<g transform="translate(340,160) rotate(-12,0,0)">
+<text fill="#f7e4be" stroke="none" font-family="Days One" font-size="18.6172px" font-style="normal" font-weight="normal" x="-29.368881225585938" y="-7.4803466796875" text-anchor="start" dominant-baseline="alphabetic">React</text>
+</g>
+<g transform="translate(338,210) rotate(-12,0,0)">
+<text fill="#848da6" stroke="none" font-family="Days One" font-size="18.6172px" font-style="normal" font-weight="normal" x="-31.649696350097656" y="-7.4803466796875" text-anchor="start" dominant-baseline="alphabetic">Redux</text>
+</g>
+<g transform="translate(410,72) rotate(12,0,0)">
+<text fill="#848da6" stroke="none" font-family="Days One" font-size="18.6172px" font-style="normal" font-weight="normal" x="-28.823684692382812" y="-7.4803466796875" text-anchor="start" dominant-baseline="alphabetic">CSS3</text>
+</g>
+<g transform="translate(368,236) rotate(-12,0,0)">
+<text fill="#f7e4be" stroke="none" font-family="Days One" font-size="18.6172px" font-style="normal" font-weight="normal" x="-23.18524169921875" y="-7.4803466796875" text-anchor="start" dominant-baseline="alphabetic">Java</text>
+</g>
+<g transform="translate(518,146) rotate(0,0,0)">
+<text fill="#f0f4bc" stroke="none" font-family="Days One" font-size="18.6172px" font-style="normal" font-weight="normal" x="-14.620834350585938" y="-7.4803466796875" text-anchor="start" dominant-baseline="alphabetic">Git</text>
+</g>
+</g>
+</svg>

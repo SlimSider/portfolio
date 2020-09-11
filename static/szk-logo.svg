@@ -1,0 +1,40 @@
+<svg width="474.00000000000006" height="284" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <linearGradient id="svg_3" x1="0.28906" y1="0.70313" x2="1" y2="0">
+   <stop stop-color="#604ce0" offset="0"/>
+   <stop stop-color="#1f62b3" offset="0.69141"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="476" height="286" id="canvas_background" fill="none"/>
+ </g>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_9"/>
+  <path stroke="#ffffff" fill="url(#svg_3)" stroke-width="5" d="m205.42938,117.63371c0.177,-1.79896 0.27948,-3.61636 0.27948,-5.45222c0,-31.84609 -26.06603,-57.65877 -58.2247,-57.65877c-24.95743,0 -46.18849,15.5817 -54.47037,37.44591c-5.4871,-5.95961 -13.3125,-9.76971 -22.09744,-9.76971c-16.56376,0 -29.98805,13.29381 -29.98805,29.69658c0,1.93733 0.21427,3.82854 0.57759,5.65517c-22.09744,3.60713 -39.00589,22.47309 -39.00589,45.37054c0,25.48056 20.85841,46.12701 46.57976,46.12701l147.89074,0c25.73066,0 46.57975,-20.64645 46.57975,-46.12701c0.00932,-22.61147 -16.44265,-41.33904 -38.12087,-45.28751z" id="svg_6"/>
+  <path fill="#619E73" stroke="#ffffff" stroke-width="5" stroke-opacity="null" d="m979.87054,94.86282c0.00009,-0.00097 0.00015,-0.00196 0.00015,-0.00295c0,-0.01726 -0.01399,-0.03125 -0.03125,-0.03125c-0.01339,0 -0.02479,0.00844 -0.02923,0.02029c-0.00294,-0.00323 -0.00714,-0.00529 -0.01186,-0.00529c-0.00889,0 -0.01609,0.0072 -0.01609,0.01609c0,0.00105 0.00011,0.00207 0.00031,0.00306c-0.01186,0.00195 -0.02093,0.01218 -0.02093,0.02459c0,0.01381 0.01119,0.025 0.025,0.025l0.07937,0c0.01381,0 0.025,-0.01119 0.025,-0.025c0,-0.01225 -0.00882,-0.0224 -0.02046,-0.02454l-0.00001,0z" id="svg_7"/>
+  <text stroke="#ffffff" transform="matrix(1.2911357879638672,0,0,1.5403591394424438,-69.1629456281662,-93.66787957772613) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_4" y="144.23437" x="240.89548" stroke-opacity="null" stroke-width="0" fill="#1f62b3">SZAMOSY</text>
+  <text stroke="#ffffff" transform="matrix(1.368021249771118,0,0,1.6406162977218628,-94.70624264702198,-231.73974458873272) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_5" y="246.86335" x="259.075" stroke-opacity="null" stroke-width="0" fill="#1162b3">KOPPÁNY</text>
+  <rect stroke="#ffffff" id="svg_8" height="169" width="2.85715" y="50.32327" x="60.3566" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#ffffff" id="svg_10" height="171" width="2.85715" y="45.32326" x="66.0709" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#ffffff" id="svg_11" height="169" width="2.85715" y="53.18042" x="16.07079" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#ffffff" id="svg_12" height="169" width="6.42859" y="50.32327" x="21.78509" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#ffffff" id="svg_13" height="169" width="10.00002" y="55.32328" x="36.07083" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#ffffff" id="svg_14" height="171" width="7.14287" y="46.75184" x="76.07092" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#ffffff" id="svg_15" height="171" width="2.85715" y="45.32326" x="87.49951" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#ffffff" id="svg_17" height="169" width="2.85715" y="47.46612" x="93.21381" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#ffffff" id="svg_18" height="171" width="6.42859" y="38.89468" x="127.4996" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#ffffff" id="svg_19" height="171" width="2.85715" y="42.46611" x="136.07105" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#ffffff" id="svg_20" height="171" width="5.7143" y="40.32325" x="106.07098" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#ffffff" id="svg_21" height="171" width="2.85715" y="38.18039" x="188.21401" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#ffffff" id="svg_22" height="171" width="5.7143" y="36.75181" x="176.07113" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#ffffff" id="svg_23" height="171" width="2.85715" y="42.46611" x="170.35683" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#ffffff" id="svg_24" height="171" width="7.85717" y="45.32326" x="153.92823" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#ffffff" id="svg_25" height="169" width="8.57145" y="50.32327" x="207.49976" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#ffffff" id="svg_26" height="171" width="2.85715" y="46.75184" x="221.78551" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#ffffff" id="svg_27" height="171" width="2.85715" y="41.75183" x="116.071" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#ffffff" id="svg_28" height="171" width="5.00001" y="44.60897" x="142.49963" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+ </g>
+</svg>

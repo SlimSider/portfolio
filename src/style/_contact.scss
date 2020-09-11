@@ -1,0 +1,73 @@
+@mixin md-breakpoint {
+    @media screen {
+        
+    }
+}
+
+.contact {
+
+    position: relative;
+    display: grid;
+    grid-template-rows: 40% 50% auto;
+    grid-template-areas: "blocks" "content" "footer";
+    
+    background-image: url('../../static/hello.jpg');
+    background-attachment: fixed;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: color(typography);
+
+    .contact-content {
+        background: linear-gradient(30deg, rgba(color(primary), 1) 0%, rgba(color(primary-dark), 0.8) 100%);
+        width: 45%;
+        padding: .5rem;
+        margin: 2rem 0 0 2rem;
+        grid-area: content;
+        align-self: center;
+    }
+
+    .bg3 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        grid-area: blocks;
+    }
+
+    h1 {
+        z-index: 1;
+        padding-left: 1rem;
+        grid-area: header;
+        justify-self: center;
+    }
+
+    .form {
+
+        padding: 1rem;
+        z-index: 1;
+
+        input, textarea {
+            resize: none;
+            outline: none;
+            padding: 1rem;
+            margin-top: .5rem;
+            margin-bottom: 1rem;
+            border: 0px solid;
+            background-color: color(secondary-dark);
+            color: color(typography);
+            width: 95%;;
+            font-size: 1em;
+
+            &::placeholder {
+                color: color(typography);
+            }
+        }
+
+        textarea {
+            height: 100px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+    }
+}

@@ -1,0 +1,102 @@
+.experience {
+   text-align: center;
+   background: linear-gradient(0deg, color(primary-dark) 0%, color(primary) 100%);
+   padding: 1rem;
+   position: relative;
+
+   h1 {
+      z-index: 2;
+      color: color(typography)
+   }
+
+   .bg {
+     position: absolute;
+     width: 15%;
+     height: 50%;
+     right: 15%;
+  
+    background-image: url('../../static/coding.svg');
+    background-repeat: no-repeat;
+   }
+
+}
+
+.tab-layout {
+  display: flex;
+  background-color: rgba(color(secondary-dark), 0.8);
+  padding: 2rem;
+  width: 80%;
+  margin: auto;
+  z-index: 1;
+  color: color(typography);
+  height: 20rem;
+
+
+  .tab-content {
+    padding: 1rem;
+    width: 75%;
+    text-align: justify;
+
+    h2 {
+      margin: 0;
+    }
+
+    h4 {
+      padding: 1rem 0 .5rem 0;
+    }
+
+    .tab-description {
+      padding-top: 1rem;
+      line-height: 1.5;
+    }
+  }
+
+  .tab-container {
+    width: 25%;
+
+    .tab {
+      border: 1px solid color(typography);
+      padding: 1rem 1rem;
+      margin: .5rem;
+      cursor: pointer;
+      transition: .5s;
+
+      &:hover {
+        opacity: 0.8;
+        background-color: color(primary-dark); 
+      }
+
+    }
+
+    .active {
+      // border-image-source: linear-gradient(45deg, color(primary) 0%, color(secondary) 100%);
+      // border-image-slice: 1;
+      padding: 1rem 1rem;
+      margin: .5rem;
+      color: color(primary);
+      border: 1px solid color(primary);
+      // background: linear-gradient(45deg, color(primary) 0%, color(secondary) 100%);
+      // background-clip: text;
+      // -webkit-text-fill-color: transparent;
+    }
+  }
+}
+
+.stack-container {
+   display: flex
+}
+
+.stack-item {
+  border: 2px solid;
+  border-image-source: linear-gradient(45deg, color(primary) 0%, color(secondary) 100%);
+  border-image-slice: 1;
+  margin: .5rem;
+  padding: .2rem 1rem;
+  background: linear-gradient(45deg, color(primary) 0%, color(secondary) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}

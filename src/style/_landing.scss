@@ -1,0 +1,79 @@
+@mixin mobile {
+    @media(max-width: 840px) {
+        @content
+    }
+}
+
+
+.landing{
+
+    display: grid;
+    grid-template-rows: 10% auto 10%;
+    grid-template-areas: 
+    "header"
+    "label"
+    "bottom";
+
+    height: 110vh;
+    
+    background-image: url('../../static/me_bw.jpg');
+    background-attachment: fixed;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @include mobile {
+        // background-size: contain;
+    }
+
+    
+    p {
+        font-size: 1.5em
+    }
+
+    .header {
+        grid-area: header;
+        justify-content: flex-end;;
+        display: flex;
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-end;
+            margin: 0 2rem;
+            align-items: center;
+            width: 25%;
+        }
+
+        li {
+            color: white;
+            transition: 1s;
+            cursor: pointer;
+            margin: 0 2rem;
+        }
+
+        li:hover {
+            opacity: 0.6;
+        }
+
+    }
+
+    .label {
+        grid-area: label;
+        align-self: end;
+        color: color(typography);
+        background: linear-gradient(30deg, rgba(color(primary), 1) 0%, rgba(color(primary-dark), 0.8) 100%);
+        justify-self: start;
+        box-shadow: 0px 10px 30px 1px color(primary-dark);
+        padding: 1rem 2rem;
+        margin: 2rem 3rem;
+        z-index: 1;
+        width: 40%;
+    }
+
+    .bottom {
+        grid-area: bottom;
+        position: absolute;
+        width: 100%;
+        bottom: -10%;
+    }
+}
