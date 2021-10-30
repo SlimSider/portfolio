@@ -16,11 +16,12 @@
 
     height: 110vh;
     
-    background-image: url('../../static/me_bw.jpg');
+    background: linear-gradient(10deg, rgb(77, 77, 77) 0%, rgb(199, 199, 199) 100%), url('../../static/me_bw.jpg');
     background-attachment: fixed;
     background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-blend-mode: multiply;
 
     @include mobile {
         // background-size: contain;
@@ -61,9 +62,9 @@
         grid-area: label;
         align-self: end;
         color: color(typography);
-        background: linear-gradient(30deg, rgba(color(primary), 1) 0%, rgba(color(primary-dark), 0.8) 100%);
+        // background: linear-gradient(30deg, rgba(color(primary), 1) 0%, rgba(color(primary-dark), 0.8) 100%);
         justify-self: start;
-        box-shadow: 0px 10px 30px 1px color(primary-dark);
+        // box-shadow: 0px 10px 30px 1px color(primary-dark);
         padding: 1rem 2rem;
         margin: 2rem 3rem;
         z-index: 1;

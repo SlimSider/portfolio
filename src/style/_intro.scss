@@ -1,0 +1,72 @@
+.intro {
+    color: color(typography);
+    background-color: color(primary-dark);
+    display: flex;
+    justify-content: center;
+
+    h1 {
+        margin: 0;
+        padding: 2rem 0;
+    }
+}
+
+.intro-container {
+    padding: 2rem 0;
+    width: 70%;
+}
+
+.intro-content {
+    padding: 2rem 0;
+}
+
+.hex-container {
+  display: flex;
+  padding: 3rem 0;
+  flex-wrap: wrap;
+}
+
+.hex-border {
+    margin: 0 2% -5% -1%;
+    width: 25%;
+    height: 8rem;
+    clip-path: polygon(50% 0, 100% 30%, 100% 70%, 50% 100%, 0 70%, 0 30%);
+    background-color: color(typography);
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    .hex {
+      margin: .2rem;
+      position: absolute;
+      width: 95%;
+      height: 7.5rem;
+      clip-path: polygon(50% 0, 100% 30%, 100% 70%, 50% 100%, 0 70%, 0 30%);
+      background-color: color(primary-dark);
+      background-size: 55%;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+    }
+
+    .hex::after {
+      content: '';
+      transition: 1s;
+    }
+
+    .hex:hover::after {
+      content: attr(lang);
+      position: absolute;
+      color: black;
+      transition: .2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 7.5rem;
+      background: color(primary) !important;
+      clip-path: none;
+    }
+  
+    &:nth-child(6n+1) {
+      margin-left: 12%;
+    }
+  }

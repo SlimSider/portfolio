@@ -30,11 +30,12 @@
     .card-container {
         padding: 2rem;
         height: 300px;
+        margin: .5rem;
         position: relative;
         flex: 1 0 30%;
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-blend-mode: saturation;
+        background-blend-mode: multiply;
         background-size: cover;
         display: flex;
 
@@ -57,11 +58,6 @@
             font-size: 1.2em;
             margin: 1rem 0;
         }
-
-        img {
-            filter: grayscale(100%);
-        }
-
         
     }
 
